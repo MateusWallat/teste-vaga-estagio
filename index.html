@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Estilo/style.css">
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <main>
+
+        <section id="conteiner">
+            <div>
+                <form action="#">
+                    <div class="header">
+                        <div class="title">
+                            <h1>Formulario De Cadastro</h1>
+
+                        </div>
+
+                    </div>
+
+                    <div id="information">
+                        <div class="cnpj">
+                            <label for="cnpj"> CNPJ:</label>
+                            <input type="number" name="cnpj" id="cnpj">
+
+                        </div>
+                        <div id="name">
+                            <label for="Nome da empresa"> NOME DA EMPRESA:</label>
+                            <input type="text" name="nome" id="nome">
+                        </div>
+
+                        <div id="cep">
+                            <label for="cep"> CEP:</label>
+                            <input type="number" name="cep" id="cep">
+                        </div>
+                        <div id="address">
+                            <label for="endereço"> ENDEREÇO:</label>
+                            <input type="text" name="endereco" id="endereco">
+                        </div>
+                        <div id="number">
+                            <label for="numero"> NUMERO:</label>
+                            <input type="number" name="numero" id="numero">
+                        </div>
+                        <div id="neighborhood">
+                            <label for="bairro"> BAIRRO:</label>
+                            <input type="text" name="bairro" id="bairro">
+                        </div>
+                        <div id="state">
+                            <label for="uf"> UF:</label>
+                            <select name="uf" id="uf">
+                                <option value="">SP</option>
+                                <option value="">ES</option>
+                                <option value="">RJ</option>
+                                <option value="">MG</option>
+                            </select>
+                        </div>
+
+                        <div id="city">
+                            <label for="cidade"> CIDADE:</label>
+                            <select name="Cidade" id="cidade">
+                                <option value="">SÃO PAULO</option>
+                                <option value="">OSASCO</option>
+                                <option value="">GUARULHOS</option>
+                                <option value="">MAIRIPORÃ</option>
+                            </select>
+
+                        </div>
+
+                    </div>
+
+            </div>
+
+            <div id="Botao">
+
+                <div id="save">
+                    <button  type="reset" onclick="enviar()"> <a href="#">Salvar</a></button>
+                </div>
+                <div id="Cancel">
+                    <button> <a href="#">Cancelar</a></button>
+                </div>
+            </div>  
+
+            </form>
+            </div>
+
+        </section>
+
+    </main>
+   <script src="Js/index.js"></script>
+</body>
+
+</html>
